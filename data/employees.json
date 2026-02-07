@@ -1,1 +1,10 @@
-
+[
+  {"id": 1, "name": "Ranio8888", "role": "Manager", "status": "Present", "clockIn": "08:00", "clockOut": "17:00"},
+  {"id": 2, "name": "Staff2", "role": "Staff IT", "status": "Late", "clockIn": "08:15", "clockOut": "17:00"},
+  {"id": 3, "name": "Staff3", "role": "HR", "status": "Present", "clockIn": "07:55", "clockOut": "16:45"},
+  {"id": 4, "name": "Staff4", "role": "Finance", "status": "Absent", "clockIn": "-", "clockOut": "-"},
+  {"id": 5, "name": "Staff5", "role": "Marketing", "status": "Present", "clockIn": "08:05", "clockOut": "17:10"},
+  {"id": 6, "name": "Staff6", "role": "Sales", "status": "Present", "clockIn": "08:00", "clockOut": "17:00"},
+  {"id": 7, "name": "Staff7", "role": "Operations", "status": "Late", "clockIn": "08:20", "clockOut": "17:00"},
+  {"id": 8, "name": "Staff8", "role": "Support", "status": "Present", "clockIn": "07:45", "clockOut": "16:50"}
+]
