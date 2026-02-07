@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abadiwin Management - Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+</head>
+<body>
+    <!-- Header dengan Navigasi -->
+    <header class="header">
+        <div class="logo-container">
+            <img src="assets/images/logo.png" alt="Abadiwin Management Logo" class="logo">
+            <h1 class="company-name">ABADIWIN MANAGEMENT</h1>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item" data-menu="absen"><i class="fas fa-calendar-check"></i> Absen</li>
+                <li class="nav-item" data-menu="izin"><i class="fas fa-file-signature"></i> Izin</li>
+                <li class="nav-item" data-menu="cuti"><i class="fas fa-umbrella-beach"></i> Cuti</li>
+                <li class="nav-item" data-menu="jadwal"><i class="fas fa-calendar-alt"></i> Jadwal</li>
+                <li class="nav-item" data-menu="reports"><i class="fas fa-chart-bar"></i> Reports</li>
+                <li class="nav-item" data-menu="chat"><i class="fas fa-comments"></i> Chat</li>
+                <li class="nav-item" data-menu="kesalahan"><i class="fas fa-exclamation-triangle"></i> Kesalahan</li>
+                <li class="nav-item" data-menu="bank"><i class="fas fa-university"></i> Bank</li>
+                <li class="nav-item" data-menu="galeri"><i class="fas fa-images"></i> Galeri</li>
+            </ul>
+        </nav>
+        <div class="user-profile">
+            <div class="user-info">
+                <span class="welcome-text">Welcome back,</span>
+                <span class="username" id="username">Ranio8888</span>
+            </div>
+            <div class="avatar">
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="dashboard-header">
+            <h2><i class="fas fa-tachometer-alt"></i> Visitor Dashboard</h2>
+            <div class="dashboard-summary">
+                <div class="summary-card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #00008B, #0afeff);">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>TOTAL EMPLOYEES</h3>
+                        <p class="card-value" id="total-employees">0</p>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #00008B, #0afeff);">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>PRESENT TODAY</h3>
+                        <p class="card-value" id="present-today">0</p>
+                        <p class="card-percentage" id="present-percentage">0% of present employees (0 present)</p>
+                    </div>
+                </div>
+                <div class="summary-card">
+                    <div class="card-icon" style="background: linear-gradient(135deg, #00008B, #0afeff);">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="card-content">
+                        <h3>LATE TODAY</h3>
+                        <p class="card-value" id="late-today">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dynamic Content Container -->
+        <div class="content-container" id="content-container">
+            <!-- Konten akan dimuat secara dinamis oleh JavaScript -->
+            <div class="welcome-message">
+                <h3>Selamat datang di Abadiwin Management Dashboard</h3>
+                <p>Pilih menu di atas untuk mengelola data karyawan</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Abadiwin Management. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#"><i class="fas fa-question-circle"></i> Bantuan</a>
+            <a href="#"><i class="fas fa-cog"></i> Pengaturan</a>
+            <a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/main.js" type="module"></script>
+</body>
+</html>
